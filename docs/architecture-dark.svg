@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -12 784 620" width="784" height="620" role="img" aria-label="A ticket enters the orchestrator alongside read-only sources. Context, Project knowledge and the Index agent gather what is needed. The Planner and Test agent plan the change, the Code agent writes it, the Test agent writes the tests, then the Review agent and Verify check it. Both can send work back to the Code agent. The PR agent opens a pull request for you to review.">
+<style>
+text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ecebef; }
+.n rect { fill: #17161a; stroke: #2a282e; }
+.t { font-size: 15px; font-weight: 600; }
+.s { font-size: 12.5px; fill: #a19ea8; }
+.l, .wl { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; fill: #a19ea8; }
+.core { fill: #251b23; stroke: #75415d; }
+.st rect { fill: #17161a; stroke: #75415d; }
+.st .t { fill: #ff6fb5; font-size: 14px; }
+.st .s { font-size: 11.5px; }
+.w { fill: none; stroke: #a19ea8; stroke-width: 1.25; }
+.p, .ah { fill: #a19ea8; }
+</style>
+<defs><marker id="ah-w" viewBox="0 0 8 8" refX="7.5" refY="4" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto"><path class="ah" d="M0 0L8 4L0 8z"/></marker></defs>
+<g class="n"><rect x="1" y="2" width="344" height="70" rx="14"/><text class="l" x="17" y="24">Input</text><text class="t" x="17" y="46">Your ticket</text></g>
+<g class="n"><rect x="415" y="2" width="344" height="70" rx="14"/><text class="l" x="431" y="24">Read-only sources</text><text class="t" x="431" y="46">Links, wiki, code and past PRs</text></g>
+<rect class="core" x="1" y="132" width="758" height="340" rx="18"/>
+<text class="l" x="25" y="452">Orchestrator</text><text class="t" x="118" y="452">Runs every step and saves its state</text>
+<g class="st"><rect x="24" y="156" width="228" height="66" rx="11"/><text class="t" x="36" y="184">Context</text><text class="s" x="36" y="204">Writes the brief</text></g>
+<g class="st"><rect x="266" y="156" width="228" height="66" rx="11"/><text class="t" x="278" y="184">Project knowledge</text><text class="s" x="278" y="204">Explains the product</text></g>
+<g class="st"><rect x="508" y="156" width="228" height="66" rx="11"/><text class="t" x="520" y="184">Index agent</text><text class="s" x="520" y="204">Finds the right code</text></g>
+<g class="st"><rect x="508" y="256" width="228" height="66" rx="11"/><text class="t" x="520" y="284">Planner</text><text class="s" x="520" y="304">Decides what to build</text></g>
+<g class="st"><rect x="266" y="256" width="228" height="66" rx="11"/><text class="t" x="278" y="284">Test agent</text><text class="s" x="278" y="304">Plans the scenarios first</text></g>
+<g class="st"><rect x="24" y="256" width="228" height="66" rx="11"/><text class="t" x="36" y="284">Code agent</text><text class="s" x="36" y="304">Writes the code</text></g>
+<g class="st"><rect x="24" y="356" width="228" height="66" rx="11"/><text class="t" x="36" y="384">Test agent</text><text class="s" x="36" y="404">Writes the tests</text></g>
+<g class="st"><rect x="266" y="356" width="228" height="66" rx="11"/><text class="t" x="278" y="384">Review agent</text><text class="s" x="278" y="404">Reviews like your team</text></g>
+<g class="st"><rect x="508" y="356" width="228" height="66" rx="11"/><text class="t" x="520" y="384">Verify</text><text class="s" x="520" y="404">Decides when it's done</text></g>
+<g class="n"><rect x="415" y="516" width="344" height="78" rx="14"/><text class="l" x="431" y="538">PR agent</text><text class="t" x="431" y="560">Pull request</text><text class="s" x="431" y="578">Every claim linked to its source</text></g>
+<g class="n"><rect x="1" y="516" width="344" height="78" rx="14"/><text class="l" x="17" y="538">You</text><text class="t" x="17" y="560">Review and merge</text><text class="s" x="17" y="578">The last call is always yours</text></g>
+<path class="w" d="M138 72V156" marker-end="url(#ah-w)"/><circle class="p" cx="138" cy="72" r="3"/>
+<path class="w" d="M622 72V156" marker-end="url(#ah-w)"/><circle class="p" cx="622" cy="72" r="3"/>
+<path class="w" d="M622 92H388Q380 92 380 100V156" marker-end="url(#ah-w)"/><circle class="p" cx="622" cy="92" r="3"/>
+<path class="w" d="M252 189H266" marker-end="url(#ah-w)"/><circle class="p" cx="252" cy="189" r="3"/>
+<path class="w" d="M494 189H508" marker-end="url(#ah-w)"/><circle class="p" cx="494" cy="189" r="3"/>
+<path class="w" d="M622 222V256" marker-end="url(#ah-w)"/><circle class="p" cx="622" cy="222" r="3"/>
+<path class="w" d="M508 289H494" marker-end="url(#ah-w)"/><circle class="p" cx="508" cy="289" r="3"/>
+<path class="w" d="M266 289H252" marker-end="url(#ah-w)"/><circle class="p" cx="266" cy="289" r="3"/>
+<path class="w" d="M86 322V356" marker-end="url(#ah-w)"/><circle class="p" cx="86" cy="322" r="3"/>
+<path class="w" d="M252 389H266" marker-end="url(#ah-w)"/><circle class="p" cx="252" cy="389" r="3"/>
+<path class="w" d="M494 389H508" marker-end="url(#ah-w)"/><circle class="p" cx="494" cy="389" r="3"/>
+<path class="w" d="M622 356V347Q622 339 614 339H198Q190 339 190 331V322" marker-end="url(#ah-w)"/><circle class="p" cx="622" cy="356" r="3"/>
+<path class="w" d="M380 356V339"/><circle class="p" cx="380" cy="356" r="3"/><circle class="p" cx="380" cy="339" r="3"/>
+<text class="wl" x="436" y="353">Fix loop</text>
+<path class="w" d="M622 422V516" marker-end="url(#ah-w)"/><circle class="p" cx="622" cy="422" r="3"/>
+<path class="w" d="M415 555H345" marker-end="url(#ah-w)"/><circle class="p" cx="415" cy="555" r="3"/>
+</svg>
